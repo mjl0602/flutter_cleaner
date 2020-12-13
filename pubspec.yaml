@@ -1,0 +1,10 @@
+name: flutter_cleaner
+version: 0.0.1
+dependencies:
+  args: any
+  path: ^1.6.4
+
+executables:
+  fclean: main
+# 一些命令备注
+#  pub global activate --source path ./
