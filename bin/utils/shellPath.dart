@@ -17,6 +17,6 @@ Uri get shellPath {
       _shellPath = Uri.parse(path.join(Platform.environment['PWD']));
     }
   }
-  return _shellPath!;
+  return _shellPath;
 }
-Uri? _shellPath;
+Uri _shellPath;

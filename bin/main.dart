@@ -5,7 +5,7 @@ import 'package:path/path.dart' as path;
 
 import 'utils/shellPath.dart';
 
-late ArgResults argResults;
+ArgResults argResults;
 
 main(List<String> args) {
   var argParser = ArgParser()

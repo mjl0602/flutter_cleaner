@@ -17,10 +17,10 @@
       "name": "flutter_cleaner",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.10"
     }
   ],
-  "generated": "2021-09-27T09:26:24.134159Z",
+  "generated": "2021-09-27T09:29:08.540095Z",
   "generator": "pub",
   "generatorVersion": "2.13.4"
 }
