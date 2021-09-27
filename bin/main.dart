@@ -35,8 +35,8 @@ main(List<String> args) {
   var list = Directory.fromUri(shellPath).listSync(recursive: true);
   for (var item in list) {
     if (item is File && path.basename(item.path) == 'pubspec.yaml') {
-      var directoryName = path.basename(item.parent.path);
-      print("Target: $directoryName");
+      // var directoryName = path.basename(item.parent.path);
+      print("Target: ${item.parent.path}");
       print("Cleaning...");
       var res = Process.runSync(
         "flutter",
