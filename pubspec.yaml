@@ -4,6 +4,9 @@ dependencies:
   args: any
   path: ^1.6.4
 
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
 executables:
   fclean: main
 # 一些命令备注
