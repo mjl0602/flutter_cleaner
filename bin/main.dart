@@ -44,7 +44,14 @@ main(List<String> args) {
         runInShell: true,
         workingDirectory: item.parent.path,
       ).stdout.replaceAll('\r\n', '');
-      print('Clean End: $res');
+      print('Clean End: \n$res');
+      res = Process.runSync(
+        "flutter",
+        ["pub", "get"],
+        runInShell: true,
+        workingDirectory: item.parent.path,
+      ).stdout.replaceAll('\r\n', '');
+      print('Get done: \n$res');
     }
   }
 }
